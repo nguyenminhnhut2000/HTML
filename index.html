@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="allapp">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item-separate">
+                            コネクトアプリ
+                            <div class="header__qr">
+                                <img src="./assets/img/Inkedqr_code_LI.jpg" alt="QR-code" class="header__qr-img">
+                                <div class="header_qr-apps">
+                                    <a href="" class="header_qr-apps-link">
+                                        <img src="./assets/img/google_play.jpg" alt="" class="header_qr-ggplay-download-img">
+                                    </a>
+                                    <a href="" class="header_qr-apps-link">
+                                        <img src="./assets/img/appstore.png" alt="" class="header_qr-appstore-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="navbar-item-title--no-pointer">コネクト</span>
+                            <a href="https://www.facebook.com" class="header__navbar-icon-link">
+                                <i class=" header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com" class="header__navbar-icon-link">
+                                <i class=" header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-phonenumber">
+                            <div class="header__navbar-item-link ">
+                                <i class=" header__navbar-icon fas fa-phone-square"></i>電話で予約
+                            </div>
+                            <div class="header__phone">
+
+                                <p class="header__phone-item">
+                                    TEL
+                                    <span class="header__phone-number"> 0907xxxxxxx<br></span>
+                                </p>
+                                <p class="header__phone-item">
+                                    注意点：お客様が事前に　ご住所、ご電話番号、注文する商品を準備してください。 </p>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="orderOnline.html" class="header__navbar-item-link">WEBで予約</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="question.html" class="header__navbar-item-has-question">
+                                <i class=" header__navbar-icon far fa-question-circle"></i> お問い合わせ
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- =============header-with-search===================--->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="index.html" class="header__logo-link">
+                            <img src="./assets/img/logo" alt="" class="header__logo-img">
+
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="検索">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">キーワードを入力</h3>
+                                <ul class="header__search-history-list">
+
+                                    <li class="header__search-history-item">
+                                        <a href="" class="">kem duong da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="" class="">kem tri mun</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="header__cart-btn">
+                            <i class=" header__cart-btn-icon  fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!--=====================CART=====================-->
+                    <div class="header__cart">
+                        <i class=" header__cart-icon fas fa-shopping-cart"></i>
+                        <div class="header__cart-list">
+                            <img src="./assets/img/cart-empty.png" alt="" class="header__cart-img">
+                            <span class="header__cart-list-msg">
+                                Chua co san pham
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+        <div class="app_container">
+            <div class="grid">
+                <div class="grid__row app_content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon  fas fa-list"></i> メーニュー
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item ">
+                                    <a href="food.html" class="category-item_link">食料品</a>
+                                </li>
+                                <li class="category-item ">
+                                    <a href="spice.html" class="category-item_link">調味料</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="rice.html" class="category-item_link"> お米</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-main">
+                            <img src="./assets/img/main.jpg" alt="" class="home-main-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+
+            <div class="footer-title">
+                <p class="footer_text">Copyright 2022 TuShop All rights reserved</p>
+            </div>
+
+
+        </footer>
+
+    </div>
+</body>
+
+</html>

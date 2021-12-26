@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuShop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="allapp">
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item-separate">
+                            コネクトアプリ
+                            <div class="header__qr">
+                                <img src="./assets/img/Inkedqr_code_LI.jpg" alt="QR-code" class="header__qr-img">
+                                <div class="header_qr-apps">
+                                    <a href="" class="header_qr-apps-link">
+                                        <img src="./assets/img/google_play.jpg" alt="" class="header_qr-ggplay-download-img">
+                                    </a>
+                                    <a href="" class="header_qr-apps-link">
+                                        <img src="./assets/img/appstore.png" alt="" class="header_qr-appstore-download-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="navbar-item-title--no-pointer">コネクト</span>
+                            <a href="https://www.facebook.com" class="header__navbar-icon-link">
+                                <i class=" header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="https://www.instagram.com" class="header__navbar-icon-link">
+                                <i class=" header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-phonenumber">
+                            <div class="header__navbar-item-link ">
+                                <i class=" header__navbar-icon fas fa-phone-square"></i>電話で予約
+                            </div>
+                            <div class="header__phone">
+                                <p class="header__phone-item">
+                                    TEL
+                                    <span class="header__phone-number"> 0907xxxxxxx<br></span>
+                                </p>
+                                <p class="header__phone-item">
+                                    注意点：お客様が事前に　ご住所、ご電話番号、注文する商品を準備してください </p>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="orderOnline.html" class="header__navbar-item-link">WEBで予約</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="question.html" class="header__navbar-item-has-question">
+                                <i class=" header__navbar-icon far fa-question-circle"></i> お問い合わせ
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- =============header-with-search===================--->
+                <div class="header-with-search">
+                    <div class="header__logo">
+                        <a href="index.html" class="header__logo-link">
+                            <img src="./assets/img/logo" alt="" class="header__logo-img">
+                        </a>
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-wrap">
+                            <input type="text" class="header__search-input" placeholder="検索">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">キーワードを入力</h3>
+                                <ul class="header__search-history-list">
+
+                                    <li class="header__search-history-item">
+                                        <a href="" class="">kem duong da</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="" class="">kem tri mun</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="header__cart-btn">
+                            <i class=" header__cart-btn-icon  fas fa-search"></i>
+                        </button>
+                    </div>
+                    <!--====================CART=====================-->
+
+                    <div class="header__cart">
+                        <i class=" header__cart-icon fas fa-shopping-cart"></i>
+                        <div class="header__cart-list">
+                            <img src="./assets/img/cart-empty.png" alt="" class="header__cart-img">
+                            <span class="header__cart-list-msg">
+                                Chua co san pham
+                            </span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </header>
+        <div class="app_container">
+            <div class="grid">
+                <div class="grid__row app_content">
+                    <div class="grid__column-2">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon  fas fa-list"></i> メーニュー
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item ">
+                                    <a href="food.html" class="category-item_link ">食料品</a>
+                                </li>
+                                <li class="category-item ">
+                                    <a href="spice.html" class="category-item_link category-item--active ">調味料</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="rice.html" class="category-item_link"> お米</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="grid__column-10">
+                        <div class="home-title">
+
+                            <i class=" home-title_icon fas fa-ice-cream"></i>
+                            <h1 class="home-title_item">
+                                調味料
+                            </h1>
+                        </div>
+                        <div class="home-product">
+                            <div class="grid__row">
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/nuocnam.jpg);"></div>
+                                        <h4 class="home-product-item-name">NUOC MAM</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">35000d</span>
+                                            <span class="home-product-item_price-current">在庫切れ</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i> オススメ
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">50%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/botnem1.jpg);"></div>
+                                        <h4 class="home-product-item-name">BOT NEM</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">15000d</span>
+                                            <span class="home-product-item_price-current">13500d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i> オススメ
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/botngot1.jpg);"></div>
+                                        <h4 class="home-product-item-name">AJINOMOTO</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">25000d</span>
+                                            <span class="home-product-item_price-current">20000d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i> オススメ
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">20%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/dauan.jpg);"></div>
+                                        <h4 class="home-product-item-name">DAU AN</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">30000d</span>
+                                            <span class="home-product-item_price-current">27000d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i> オススメ
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/duongden.jpg);"></div>
+                                        <h4 class="home-product-item-name"> DUONG DEN</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">5000d</span>
+                                            <span class="home-product-item_price-current">4500d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                                <i class="fas fa-heart"></i>  
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i>NEW
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/iot.jpg);"></div>
+                                        <h4 class="home-product-item-name">MUOI IOT</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">2500d</span>
+                                            <span class="home-product-item_price-current">2250d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                                <i class="fas fa-heart"></i>
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i> オススメ
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/nguvihuong1.jpg);"></div>
+                                        <h4 class="home-product-item-name"> NGU VI HUONG</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">25000d</span>
+                                            <span class="home-product-item_price-current">20000d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like"> 
+                                              <i class="far fa-heart"></i>   
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i> オススメ
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">20%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/otbot.jpg);"></div>
+                                        <h4 class="home-product-item-name"> OT BOT</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">35000d</span>
+                                            <span class="home-product-item_price-current">33500d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                                <i class="fas fa-heart"></i>  
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i>NEW
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/sugar1.jpg);"></div>
+                                        <h4 class="home-product-item-name"> DUONG</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">15000d</span>
+                                            <span class="home-product-item_price-current">13500d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                              <i class="far fa-heart"></i> 
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in </span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i> オススメ
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/tieu.jpg);"></div>
+                                        <h4 class="home-product-item-name">TIEU</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">18000d</span>
+                                            <span class="home-product-item_price-current">14400d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                                <i class="fas fa-heart"></i>  
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i> オススメ
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">20%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/tuongden.JPG);"></div>
+                                        <h4 class="home-product-item-name"> TUONG DEN</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">16000d</span>
+                                            <span class="home-product-item_price-current">14400d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                                <i class="fas fa-heart"></i>
+                                                
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i> オススメ
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__column-2-4">
+                                    <!-- PRODUCT item-->
+                                    <div class="home-product-item">
+                                        <div class="home-product-item_img" style="background-image: url(./assets/img/spice/tuongdo.jpg);"></div>
+                                        <h4 class="home-product-item-name">TUONG DO</h4>
+                                        <div class="home-product-item_price">
+                                            <span class="home-product-item_price-old">12000d</span>
+                                            <span class="home-product-item_price-current">11800d</span>
+                                        </div>
+                                        <div class="home-product-item_action">
+                                            <span class="home-product-item_like">
+                                              <i class="far fa-heart"></i>   
+                                            </span>
+                                            <div class="home-product-item_rating">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                        <div class="home-product-item_origin">
+                                            <span class="home-product-item_brand">Made in</span>
+                                            <span class="home-product-item_origin-name"> VIET NAM</span>
+                                        </div>
+                                        <div class="home-product-item_favourate">
+                                            <i class="fas fa-check"></i> オススメ
+                                        </div>
+                                        <div class="home-product-item_sale-off">
+                                            <span class="home-product-item_sale-off-percent">10%</span>
+                                            <span class="home-product-item_sale-off-label">OFF</span>
+                                        </div>
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer-title">
+                    <p class="footer_text">Copyright 2022 TuShop All rights reserved</p>
+                </div>
+            </footer>
+
+        </div>
+</body>
+
+</html>
