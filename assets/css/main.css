@@ -230,10 +230,21 @@
 
 .question-form_controls-link-back {
     text-decoration: none;
+    padding: 10px 50px;
+}
+
+.order-form_controls-link-back {
+    text-decoration: none;
+    color: var(--white-color);
 }
 
 .question-form_controls-link,
-.order-form_controls-link-back {
+.order-form_controls-link {
+    padding: 10px 50px;
+}
+
+.question-form_controls-link,
+.order-form_controls-link {
     text-decoration: none;
     color: var(--white-color);
 }
